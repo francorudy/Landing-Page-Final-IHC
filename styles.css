@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+
+/*Cabecera*/
+
+header{
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.logo{
+    padding: 10px 0;
+    display: flex;
+    line-height: 1;
+    border-bottom: 3px solid #e5e5e5;
+    justify-content: center;
+}
+
+.logo img{
+    cursor: pointer;
+    text-align: center!important;
+}
+
+#imglogo{
+    margin-right: 20%;
+}
+
+#imgredes{
+    margin-left: 35%;
+}
+
+#btn-primary{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 150px;
+    height: 70px;
+    color: white;
+    background-color: #00aae4;
+    border-color: #00aae4;
+    cursor: pointer;
+    font-family: "Segoe UI";
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center!important;
+    padding-top: 10px!important;
+    border-bottom: 3px solid #e5e5e5;
+    justify-content: space-between;
+}
+
+.menu > div >a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Segoe UI";
+}
+
+.menu > div{
+    display: flex;
+    flex-direction: row;
+}
+
+#div-menupri{
+    width: 50%;
+}
+
+#div-menuseg{
+    width: 20%;
+}
+
+.p-1{
+    margin-right: 2%;
+}
+
+.p-3{
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+/*Fin de Cabecera*/
+
+.Buscar{
+    width: 100%;
+    text-align: center;
+    background-color: #40D5FF;
+    height: 300px;
+}
+
+.Buscar > .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Buscar > .contenedor > .buscador{
+    padding-top: 50px;
+}
+
+.Buscar > .contenedor > .buscador > h1 {
+    color: white;
+    font-family: "Segoe UI";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Buscar > .contenedor > .buscador > input {
+    width: 100%;
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: #53C4E4;
+    margin-top: 20px;
+}
+
+
+.Buscar > .contenedor > .buscador > p {
+    color: white;
+    font-family: "Segoe UI";
+    margin-top: 10px;
+    font-size: 20px;
+}
+/*Primera Seccion*/
+/*Fin de Primera Seccion*/
+
+/*Consultas*/
+
+.Consultas{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 300px;
+}
+
+.Consultas > .contenedor > .PreguFrecu{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    justify-content: center;
+    line-height: 1;
+    border-bottom: 3px solid black;
+}
+
+.Consultas > .contenedor > .PreguFrecu > a{
+    text-decoration: none;
+    color: #40D5FF;
+    text-align: center;
+    border-radius: 60px;
+    border: #40D5FF solid 2px;
+    margin-right: 2%;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    padding: 20px 30px;
+}
+
+.Consultas > .contenedor > .Enviar{
+    padding-top: 10px;
+}
+
+.Consultas > .contenedor > .Enviar > h2{
+    font-family: "Segoe UI";
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.Consultas > .contenedor > .Enviar > a{
+    color: white;
+    font-family: "Segoe UI";
+    background-color: #40D5FF;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+/*Fin Consultas*/
+
+/*Footer*/
+footer{
+    padding: 2.5rem 0;
+    color: white;
+    text-align: center;
+    background-color: #6b6b6b;
+    border-top: .05rem solid #6b6b6b;
+}
+
+footer > .contenedor{
+    width: 75%;
+}
+
+.center_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.div-seccion-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Segoe UI";
+}
+
+.div-seccion-footer > a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.p-titulo-footer{
+    font-weight: bold;
+}
+
+.p-cont-footer{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.follow{
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.div-seccion-footer > div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-seccion-footer > div > a{
+    margin-right: 5%;
+}
+
+/*Fin Footer*/
