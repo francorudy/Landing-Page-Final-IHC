@@ -3,7 +3,9 @@
 ## Lineamientos
 
 - para la elaboracion de los lineamientos se utilizo el color negro y blanco
-- las cules nos muestran 
+- las cuales nos muestran negro= clase , estilo , seriedad y sofisticacion
+- el blanco = color neutral que permite tener a otros colres mayor participacion 
+- como es el caso del color negro ,ayuda a manterner limpieza y simplicidad
 - ya que estos colores era pieza clave para al elaboracion del landing page ya
 - que reflejaba lo la propuesta del landing page 
 - en los bottenes se eligion un booton realacionado para el registro del usurio
